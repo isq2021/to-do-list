@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <label for="new-task"> Add item</label>
+            <input type="text" id="new-task" placeholder="add new task">
+            <button id="add-task">Add</button>
+        </div>
+        <h3>To do list</h3>
+        <ul id="incompleted-tasks">
+            <li>
+                <input type="checkbox" ><label for="">Pay Bills</label>
+                <input type="text"><button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+            <li class="editMode">
+                <input type="checkbox" ><label for="">Go shopping</label>
+                <input type="text" value="Go shopping"><button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+        </ul>
+        <h3>Completed</h3>
+        <ul class="completed-tasks">
+            <li>
+                <li>
+                    <input type="checkbox" ><label for=""> Visit Doctor</label>
+                    <input type="text"><button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+            </li>
+
+        </ul>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
